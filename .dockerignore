@@ -1,0 +1,12 @@
+# Ignored directories
+.git/
+.github/
+
+# Ignored files
+.env.example
+.gitignore
+.dockerignore
+docker-compose.yml
+Dockerfile
+Makefile
+README.md
