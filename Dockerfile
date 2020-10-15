@@ -24,6 +24,8 @@ FROM python-base
 RUN set -eux && \
     apt-get update && \
     apt-get install --yes --no-install-recommends curl && \
-    curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
-    # cd /usr/local/bin && \
-    # ln -s /opt/poetry/bin/poetry
+    curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python && \
+    groupadd -r fakedata && \
+    useradd -r -g fakedata fakedata && \
+    mkdir -p /usr/src/randomicu-fakedata && \
+    chown fakedata:fakedata /usr/src/randomicu-fakedata
