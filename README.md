@@ -17,6 +17,10 @@ fakedata related:
 2. `PYSETUP_PATH /opt/pysetup`
 3. `VENV_PATH /opt/pysetup/.venv`
 
+## Image information
+
+Since v1.0.1 user `fakedata` in group `fakedata` was added.
+
 ## Credits
 
-This structure was inspired by this [comment](https://github.com/python-poetry/poetry/issues/1879#issuecomment-592133519).
+Project structure was inspired by this [comment](https://github.com/python-poetry/poetry/issues/1879#issuecomment-592133519).
