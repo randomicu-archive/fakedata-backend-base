@@ -6,7 +6,7 @@ Base image from `python:3.9.0-slim-buster` for fakedata-backend with pre-install
 
 poetry related:
 
-1. `POETRY_VERSION 1.1.2`
+1. `POETRY_VERSION 1.1.4`
 2. `POETRY_HOME /opt/poetry`
 3. `POETRY_VIRTUALENVS_IN_PROJECT true`
 4. `POETRY_NO_INTERACTION 1`
