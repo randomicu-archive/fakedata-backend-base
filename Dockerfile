@@ -1,4 +1,4 @@
-FROM python:3.9.0-slim-buster as python-base
+FROM python:3.9.2-slim-buster as python-base
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
