@@ -1,12 +1,12 @@
 # fakedata-backend-base
 
-Base image from `python:3.9.0-slim-buster` for fakedata-backend with pre-installed poetry.
+Base image from `python:3.9.4-slim-buster` for fakedata-backend with pre-installed poetry and libpq-dev.
 
 ## Used environment variables
 
 poetry related:
 
-1. `POETRY_VERSION 1.1.4`
+1. `POETRY_VERSION 1.1.5`
 2. `POETRY_HOME /opt/poetry`
 3. `POETRY_VIRTUALENVS_IN_PROJECT true`
 4. `POETRY_NO_INTERACTION 1`
