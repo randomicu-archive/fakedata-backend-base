@@ -23,7 +23,7 @@ FROM python-base
 
 RUN set -eux && \
     apt-get update && \
-    apt-get install --yes --no-install-recommends curl && \
+    apt-get install --yes --no-install-recommends curl libpq-dev && \
     curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python && \
     groupadd -r fakedata && \
     useradd -r -g fakedata fakedata && \
