@@ -10,7 +10,7 @@ OS libraries:
 
 poetry environment variables:
 
-1. `POETRY_VERSION 1.1.6`
+1. `POETRY_VERSION 1.1.7`
 2. `POETRY_HOME /opt/poetry`
 3. `POETRY_VIRTUALENVS_IN_PROJECT true`
 4. `POETRY_NO_INTERACTION 1`
