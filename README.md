@@ -1,21 +1,21 @@
 # fakedata-backend-base
 
-Randomicu base image from [python:3.9.4-slim-buster](https://hub.docker.com/layers/python/library/python/3.9.6-slim-buster/images/sha256-fcfbcb15bc6bd589a7c4ce0000fd02b88ad3fc4a8360c272787944f69e2daf59?context=explore) for fakedata-backend with pre-installed poetry and libpq-dev.
+Randomicu base image from [python:3.9.6-slim-buster](https://hub.docker.com/layers/python/library/python/3.9.6-slim-buster/images/sha256-fcfbcb15bc6bd589a7c4ce0000fd02b88ad3fc4a8360c272787944f69e2daf59?context=explore) for fakedata-backend with pre-installed poetry and libpq-dev.
 
-## Used environment variables
+## Environment
 
-OS related:
+OS libraries:
 1. `curl=7.64.0-4+deb10u2`
 2. `libpq-dev=11.12-0+deb10u1`
 
-poetry related:
+poetry environment variables:
 
-1. `POETRY_VERSION 1.1.5`
+1. `POETRY_VERSION 1.1.6`
 2. `POETRY_HOME /opt/poetry`
 3. `POETRY_VIRTUALENVS_IN_PROJECT true`
 4. `POETRY_NO_INTERACTION 1`
 
-fakedata related:
+fakedata environment variables:
 
 1. `PYTHONPATH /usr/src/randomicu-fakedata`
 2. `PYSETUP_PATH /opt/pysetup`
