@@ -22,7 +22,7 @@ FROM python-base
 
 RUN set -eux && \
     apt-get update && apt-get -y upgrade && \
-    apt-get install --yes --no-install-recommends curl=7.64.0-4+deb10u2 libpq-dev=11.12-0+deb10u1 && \
+    apt-get install --yes --no-install-recommends curl=7.64.0-4+deb10u2 libpq-dev=11.16-0+deb10u1 && \
     pip install --upgrade --no-cache-dir pip && \
     curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python && \
     groupadd -r fakedata && \
