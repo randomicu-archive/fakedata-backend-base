@@ -8,7 +8,7 @@ Debian package version search: https://packages.debian.org/index
 
 OS libraries:
 1. `curl=7.64.0-4+deb10u2`
-2. `libpq-dev=11.12-0+deb10u1`
+2. `libpq-dev=11.16-0+deb10u`
 
 poetry environment variables:
 
