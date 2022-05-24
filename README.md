@@ -2,6 +2,8 @@
 
 Randomicu base image from [python:3.9.6-slim-buster](https://hub.docker.com/layers/python/library/python/3.9.6-slim-buster/images/sha256-fcfbcb15bc6bd589a7c4ce0000fd02b88ad3fc4a8360c272787944f69e2daf59?context=explore) for fakedata-backend with pre-installed poetry and libpq-dev.
 
+Debian package version search: https://packages.debian.org/index
+
 ## Environment
 
 OS libraries:
