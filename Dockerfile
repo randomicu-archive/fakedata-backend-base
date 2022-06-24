@@ -1,4 +1,4 @@
-FROM python:3.10.4-slim-bullseye@sha256:e735a28fffb9f39bf4d8d50c364707a8e5274fe46e9b5a2974037098a0e0bdba as python-base
+FROM python:3.10.4-slim-bullseye@sha256:b4473ae501f273874a4379f489ea0270dd4dd479d26c72d6d520fb4e717493c6 as python-base
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1

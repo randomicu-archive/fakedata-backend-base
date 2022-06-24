@@ -1,6 +1,6 @@
 # fakedata-backend-base
 
-Randomicu base image from [python:3.10.4-slim-bullseye](https://hub.docker.com/layers/python/library/python/3.10.4-slim-bullseye/images/sha256-e735a28fffb9f39bf4d8d50c364707a8e5274fe46e9b5a2974037098a0e0bdba?context=explore) for fakedata-backend with pre-installed poetry and libpq-dev.
+Randomicu base image from [python:3.10.4-slim-bullseye](https://hub.docker.com/layers/python/library/python/3.10.4-slim-bullseye/images/sha256-b4473ae501f273874a4379f489ea0270dd4dd479d26c72d6d520fb4e717493c6?context=explore) for fakedata-backend with pre-installed poetry and libpq-dev.
 
 Debian package version search: https://packages.debian.org/index
 
